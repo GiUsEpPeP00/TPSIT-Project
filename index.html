@@ -3,41 +3,115 @@
     <head>
         <title> Husqvarna Wr 250 </title>
         <style>
-			*{
-				max-height: 100%;
-				max-width: 100%;
-			}
-			.header{
-				display: flex;
-				width: 100%;
-			}
             .menubar{
 				display: flex;
 				margin-left: auto;
 				margin-right: auto;
+				width: 100%;
             }
+			.title-price{
+				text-align: center;
+				font-family: "Myriad Pro";	
+				color: #003686;
+				margin-left: auto;
+				margin-right: auto;
+			}
+             .desc-hsq{
+                text-align: center;
+				font-family: "Myriad Pro";	
+				color: #003686;
+				margin-left: auto;
+				margin-right: auto;
+				font-size: larger;
+				width: auto;
+				max-width: 719px;
+			}
 			.menubar i, .menubar img{
 				margin: auto;
 				width: auto;
 				height: auto;
 			}
 			.logo{
-				max-height: 80%;
-				max-width: 80%;
+				max-height: 30%;
+				max-width: 25%;
 			}
-        </style>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+			@media screen and (min-width: 390px) /*oltre i 1920 comportati cosi:*/{
+				p.image-hsq{
+					display: flex;
+					width: 50%;
+				}
+				p.desc-hsq{
+					display: flex;
+					position: absolute;
+					bottom: 522px;
+					left: 203px;
+					width: auto;
+					font-size: smaller;
+				}
+			}
+			.fa-bars, .fa-cart-shopping {
+				color: #003686;
+			}
+			.image-mono, .image-forcelle{
+				display: flex;
+				width: 50%;
+			}
+			img, .image-engine, .image-wr{
+				display: flex;
+				height: 100%;
+				width: 100%;
+			}
+		</style>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />                
 		<meta name="viewport" content="width=device-width">
+		<link href="https://fonts.cdnfonts.com/css/myriad-pro" rel="stylesheet">
     </head>
 
     <body>
         <header>
             <p class="menubar">
-                <i class="fa-regular fa-bars fas"></i>
-                <img src="E:\WIREFREAME HSQ\Husqvarna_logo.png" alt="menubar lines" width="512" height="100" class="logo">
-                <i class="fa-regular fa-cart-shopping fas"></i>
+                <i class="fa-regular fa-bars fas fa-xl"></i>
+                <img src="husqvarna_logo.png" alt="menubar lines" width="512" height="100" class="logo">
+                <i class="fa-regular fa-cart-shopping fas fa-xl	"></i>
             </p>
         </header>
-        
+        <p class="title-price">
+			<b>
+				WR 250
+				<br>
+				PREZZO DI BASE: 7.260 EUR
+			</b>
+		</p>
+		<span class="image-span">
+			<p class="image-hsq">
+				<img src="Senza titolo-7.png" alt="foto wr250" class="image-wr">
+			</p>
+			<p class="desc-hsq">
+				Il WR250 nasce per conseguire successi in gara grazie all'abinamento perfetto di affidabilità e prestazoioni. Lo chassis è stato sviluppato per garantire la massima stabilità e precisione di guida, mentre il motore è stato ottimizzato per offrire una potenza e un'accelerazione superiori. Il WR250 è la moto perfetta per chi cerca prestazioni, affidabilità e facilità d'uso.
+			</p>
+		</span>
+		<span class="engine-span">
+			<p class="image-engine">
+				<img src="engine.PNG" alt="engine">
+			</p>
+			<p class="desc-engine">
+				motore
+			</p>
+		</span>
+		
+		<p class="image-mono image-forcelle">
+			<img src="forcelle.PNG" alt="forcelle">
+			<img src="mono.PNG" alt="monoammortizzatore">
+
+		</p>
+		<p class="desc-ciclistica">
+			ciclistica
+		</p>
+		<p class="image-engine">
+			<img src="ngine.PNG" alt="engine">
+		</p>
+		<p class="desc-specifiche">
+			specifiche
+		</p>
     </body>
 </html>
