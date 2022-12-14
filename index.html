@@ -1,72 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Husqvarna Wr 250 </title>
-        <style>
-            .menubar{
-				display: flex;
-				margin-left: auto;
-				margin-right: auto;
-				width: 100%;
-            }
-			.title-price{
-				text-align: center;
-				font-family: "Myriad Pro";	
-				color: #003686;
-				margin-left: auto;
-				margin-right: auto;
-			}
-             .desc-hsq{
-                text-align: center;
-				font-family: "Myriad Pro";	
-				color: #003686;
-				margin-left: auto;
-				margin-right: auto;
-				font-size: larger;
-				width: auto;
-				max-width: 719px;
-			}
-			.menubar i, .menubar img{
-				margin: auto;
-				width: auto;
-				height: auto;
-			}
-			.logo{
-				max-height: 30%;
-				max-width: 25%;
-			}
-			@media screen and (min-width: 390px) /*oltre i 1920 comportati cosi:*/{
-				p.image-hsq{
-					display: flex;
-					width: 50%;
-				}
-				p.desc-hsq{
-					display: flex;
-					position: absolute;
-					bottom: 522px;
-					left: 203px;
-					width: auto;
-					font-size: smaller;
-				}
-			}
-			.fa-bars, .fa-cart-shopping {
-				color: #003686;
-			}
-			.image-mono, .image-forcelle{
-				display: flex;
-				width: 50%;
-			}
-			img, .image-engine, .image-wr{
-				display: flex;
-				height: 100%;
-				width: 100%;
-			}
-		</style>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />                
+		<title> Husqvarna Wr 250 </title>
 		<meta name="viewport" content="width=device-width">
-		<link href="https://fonts.cdnfonts.com/css/myriad-pro" rel="stylesheet">
-    </head>
-
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="stile.css">
+	</head>
     <body>
         <header>
             <p class="menubar">
@@ -75,43 +14,93 @@
                 <i class="fa-regular fa-cart-shopping fas fa-xl	"></i>
             </p>
         </header>
-        <p class="title-price">
+        <p class="general-style title-price">
 			<b>
 				WR 250
 				<br>
 				PREZZO DI BASE: 7.260 EUR
 			</b>
 		</p>
-		<span class="image-span">
+		<div class="1-section">
 			<p class="image-hsq">
-				<img src="Senza titolo-7.png" alt="foto wr250" class="image-wr">
+				<img src="Senza titolo-7.png" alt="foto wr250" >
 			</p>
-			<p class="desc-hsq">
-				Il WR250 nasce per conseguire successi in gara grazie all'abinamento perfetto di affidabilità e prestazoioni. Lo chassis è stato sviluppato per garantire la massima stabilità e precisione di guida, mentre il motore è stato ottimizzato per offrire una potenza e un'accelerazione superiori. Il WR250 è la moto perfetta per chi cerca prestazioni, affidabilità e facilità d'uso.
+			<p class="desc-hsq general-style">
+				Il WR250 nasce per conseguire successi in gara grazie all'abinamento perfetto di affidabilità e prestazoioni. Lo chassis è stato sviluppato per garantire la massima stabilità e precisione di guida, mentre il motore è stato ottimizzato per offrire una potenza e un'accelerazione superiori. Il WR250 è la moto perfetta per chi cerca prestazioni, affidabilità e facilità d'uso
 			</p>
-		</span>
-		<span class="engine-span">
+		</div>
+		<div style="clear: both;">
+		</div class="2-section">
+		<div>
+			<h2 class="general-style">
+				<b>
+					ENGINE
+				</b>
+			</h2>
 			<p class="image-engine">
 				<img src="engine.PNG" alt="engine">
 			</p>
-			<p class="desc-engine">
-				motore
+			<p class="desc-engine general-style">
+				qui ci va la descrizione del motore
 			</p>
-		</span>
-		
-		<p class="image-mono image-forcelle">
-			<img src="forcelle.PNG" alt="forcelle">
-			<img src="mono.PNG" alt="monoammortizzatore">
-
-		</p>
-		<p class="desc-ciclistica">
-			ciclistica
-		</p>
-		<p class="image-engine">
-			<img src="ngine.PNG" alt="engine">
-		</p>
-		<p class="desc-specifiche">
-			specifiche
-		</p>
-    </body>
+		</div>
+		<div style="clear: both;"></div>
+		<div>
+			<h2 class="general-style">
+				<b>
+					CICLISTICA
+				</b>
+			</h2>
+			<p class="image-ciclistica">
+				<img src="forcelle.PNG" alt="forcelle" class="image-forcelle">
+				<img src="mono.PNG" alt="monoammortizzatore" class="image-mono">
+			</p>
+			<p class="desc-ciclistica general-style">
+				qui ci va la ciclistica
+			</p>
+		</div>
+		<div style="clear: both;"></div>
+		<div>
+			<h2 class="general-style">
+				<b>
+					SPECIFICHE TECNICHE
+				</b>
+			</h2>
+			<p class="image-specifiche">
+				<img src="Senza titolo-3.png" alt="bike">
+			</p>
+			<p class="desc-specifiche general-style">
+				qui ci vanno le specifiche
+			</p>
+		</div>
+		<div style="clear: both;"></div>
+		<div class="form">
+			<h2 class="general-style">
+				<b>
+					CONTATTACI
+				</b>
+			</h2>
+		</div>
+		<form>
+			<div class="form-left">
+				<label for="nome"></label><br>
+				<input type="text" id="nome" name="nome" placeholder="Nome"><br>
+				<label for="cognome"></label><br>
+				<input type="text" id="cognome" name="cognome" placeholder="Cognome"><br>
+				<label for="email"></label><br>
+				<input type="text" id="email" name="email" placeholder="Email"><br>
+			</div>
+			<div class="form-right">
+				<label for="messaggio"></label><br>
+				<input type="textarea" name="messaggio" id="messaggio" placeholder="Scrivi il messaggio">
+			</div>
+			<br>
+			<div class="form-submit">
+				<input type="submit" value="INVIA">
+			</div>
+		</form>
+		<footer>
+			
+		</footer>
+	</body>
 </html>
