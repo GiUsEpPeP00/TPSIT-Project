@@ -1,76 +1,102 @@
-.menubar{
+.menubar {
     display: flex;
     margin: auto;
     width: 100%;
 }
-.general-style{
+
+.general-style {
     text-align: center;
     color: #003686;
     margin: auto;
 }
- .desc-hsq, .desc-engine, .desc-ciclistica, .desc-specifiche{
+
+.desc-hsq,
+.desc-engine,
+.desc-ciclistica,
+.desc-specifiche {
     font-size: larger;
     width: auto;
     max-width: 719px;
     text-align: center;
 }
-div.desc-specifiche{
+
+div.desc-specifiche {
     text-align: left;
 }
-.menubar i, .menubar img{
+
+.menubar i,
+.menubar img {
     margin: auto;
     width: auto;
     height: auto;
     color: #003686;
 }
-.logo{
+
+.logo {
     max-height: 40%;
     max-width: 35%;
 }
-h2{
+
+h2 {
     padding-top: 10%;
-    padding-bottom: 5%; 
+    padding-bottom: 5%;
 }
-@media screen and (min-width: 576px) /*oltre i 576 comportati cosi:*/{
-    [type="textarea"]{
+
+@media screen and (min-width: 576px)
+
+/*oltre i 576 comportati cosi:*/
+    {
+    [type="textarea"] {
         margin-left: 2%;
     }
-    .logo{
+
+    .logo {
         max-height: 30%;
         max-width: 25%;
     }
 }
-img{
+
+img {
     width: 100%;
 }
-div.col-sm{
+
+div.col-sm {
     padding: 0;
 }
-input:not([type="submit"]){
+
+input:not([type="submit"]) {
     width: 100%;
 }
-[type="textarea"]{
+
+[type="textarea"] {
     height: 84.5%;
 }
-input::placeholder, [type="submit"]{
+
+input::placeholder,
+[type="submit"] {
     font-size: 20px;
 }
-input{
+
+input {
     text-align: center;
     background-color: transparent;
     color: #003686;
     border: solid 1px black;
 }
-table img{
+
+table img {
     width: auto;
 }
-table{
+
+table {
     text-align: center;
 }
-table thead tr{
+
+table thead tr {
     border-bottom: 1px solid rgb(86, 86, 86);
 }
-footer{
+
+footer {
     padding-bottom: 20px;
     margin-top: 20px;
     background-color: #f2f2f2;
