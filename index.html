@@ -1,106 +1,182 @@
 <!DOCTYPE html>
-<html>
+<html> 
     <head>
 		<title> Husqvarna Wr 250 </title>
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<link rel="stylesheet" href="stile.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
 	</head>
     <body>
-        <header>
-            <p class="menubar">
+        <header> 
+            <div class="menubar">
                 <i class="fa-regular fa-bars fas fa-xl"></i>
                 <img src="husqvarna_logo.png" alt="menubar lines" width="512" height="100" class="logo">
                 <i class="fa-regular fa-cart-shopping fas fa-xl	"></i>
-            </p>
+            </div>
         </header>
-        <p class="general-style title-price">
+        <div class="general-style">
 			<b>
 				WR 250
 				<br>
 				PREZZO DI BASE: 7.260 EUR
 			</b>
-		</p>
-		<div class="1-section">
-			<p class="image-hsq">
-				<img src="Senza titolo-7.png" alt="foto wr250" >
-			</p>
-			<p class="desc-hsq general-style">
-				Il WR250 nasce per conseguire successi in gara grazie all'abinamento perfetto di affidabilità e prestazoioni. Lo chassis è stato sviluppato per garantire la massima stabilità e precisione di guida, mentre il motore è stato ottimizzato per offrire una potenza e un'accelerazione superiori. Il WR250 è la moto perfetta per chi cerca prestazioni, affidabilità e facilità d'uso
-			</p>
 		</div>
-		<div style="clear: both;">
-		</div class="2-section">
-		<div>
+		<div class="1-section container">
+			<div class="row">
+				<div class="image-hsq">
+					<img src="Senza titolo-7.png" alt="foto wr250" >
+				</div>
+				<div class="desc-hsq general-style ">
+					Il WR250 nasce per conseguire successi in gara grazie all'abinamento perfetto di affidabilità e prestazoioni. Lo chassis è stato sviluppato per garantire la massima stabilità e precisione di guida, mentre il motore è stato ottimizzato per offrire una potenza e un'accelerazione superiori. Il WR250 è la moto perfetta per chi cerca prestazioni, affidabilità e facilità d'uso.
+				</div>
+			</div>
+		</div>
+		<div class="2-section container">
 			<h2 class="general-style">
 				<b>
 					ENGINE
 				</b>
 			</h2>
-			<p class="image-engine">
-				<img src="engine.PNG" alt="engine">
-			</p>
-			<p class="desc-engine general-style">
-				qui ci va la descrizione del motore
-			</p>
+			<div class="row">
+				<div class="image-engine col-sm">
+					<img src="engine.PNG" alt="engine">
+				</div>
+				<div class="desc-engine general-style col-sm">
+					Il nuovo motore 250cc 2 tempi è stato progettato e sviluppato per spingere in ogni range di giri, con la coppia di un 300cc e un allungo da 125cc. Il nuovo carburatore Mikuni 38 tmxx assieme al pacco Vforce 3 garantiscono coppia ai bassi regimi mai vista prima.
+				</div>
+			</div>
 		</div>
-		<div style="clear: both;"></div>
-		<div>
+		<div class="3-section container">
 			<h2 class="general-style">
 				<b>
 					CICLISTICA
 				</b>
 			</h2>
-			<p class="image-ciclistica">
-				<img src="forcelle.PNG" alt="forcelle" class="image-forcelle">
-				<img src="mono.PNG" alt="monoammortizzatore" class="image-mono">
-			</p>
-			<p class="desc-ciclistica general-style">
-				qui ci va la ciclistica
-			</p>
+			<div class="row">
+				<div class="col">
+					<img src="forcelle.PNG" alt="forcelle">
+				</div>
+				<div class="col">
+					<img src="mono.PNG" alt="monoammortizzatore">
+				</div>
+				<div class="desc-ciclistica general-style col-sm">
+					WR 250 ha beneficiato delle stesse migliorie apportate ai modelli 125cc, equipaggiandoil nuovo mabubrio Tomaselli senza traversino, piastre di sterzo regolabili, forcelle Marzocchi 45mm e il nuovo ammortizzatore Sachs al posteriore.
+				</div>
+			</div>
 		</div>
-		<div style="clear: both;"></div>
-		<div>
+		<div class="4-section container">
 			<h2 class="general-style">
 				<b>
 					SPECIFICHE TECNICHE
 				</b>
 			</h2>
-			<p class="image-specifiche">
-				<img src="Senza titolo-3.png" alt="bike">
-			</p>
-			<p class="desc-specifiche general-style">
-				qui ci vanno le specifiche
-			</p>
+			<div class="row">
+				<div class="col-sm">
+					<img src="Senza titolo-3.png" alt="bike">
+				</div>
+				<div class="desc-specifiche general-style col-sm">
+					MOTORE
+					<br>
+					Alesaggio: 66,4mm 
+					<br>
+					Corsa: 72mm
+					<br>
+					Cilindrata: 249,3
+					<br>
+					Alimentazione: Mikuni 38tmxx
+					<br>
+					Cambio: 5 velocità
+				</div>
+			</div>
 		</div>
-		<div style="clear: both;"></div>
-		<div class="form">
+		<div class="5-section container">
 			<h2 class="general-style">
 				<b>
 					CONTATTACI
 				</b>
-			</h2>
+			</h2>	
+			<form class="container">
+				<div class="row">
+					<div class="col">
+						<label for="nome"></label>
+						<br>
+						<input type="text" id="nome" name="nome" placeholder="Nome" required>
+						<br>
+						<label for="cognome"></label>
+						<br>
+						<input type="text" id="cognome" name="cognome" placeholder="Cognome" required>
+						<br>
+						<label for="email"></label>
+						<br>
+						<input type="text" id="email" name="email" placeholder="Email" required>
+						<br>
+					</div>
+					<div class="col">
+						<label for="messaggio"></label>
+						<br>
+						<input type="textarea" name="messaggio" id="messaggio" placeholder="Scrivi il messaggio qui..." required>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<input type="submit" value="INVIA">
+				</div>
+			</form>
 		</div>
-		<form>
-			<div class="form-left">
-				<label for="nome"></label><br>
-				<input type="text" id="nome" name="nome" placeholder="Nome"><br>
-				<label for="cognome"></label><br>
-				<input type="text" id="cognome" name="cognome" placeholder="Cognome"><br>
-				<label for="email"></label><br>
-				<input type="text" id="email" name="email" placeholder="Email"><br>
-			</div>
-			<div class="form-right">
-				<label for="messaggio"></label><br>
-				<input type="textarea" name="messaggio" id="messaggio" placeholder="Scrivi il messaggio">
-			</div>
-			<br>
-			<div class="form-submit">
-				<input type="submit" value="INVIA">
-			</div>
-		</form>
 		<footer>
-			
+			<table class="table table-borderless">
+				<thead>
+					<tr>
+						<th>
+							Azienda
+						</th>
+						<th>
+							Discover
+						</th>
+						<th>
+							Social
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>
+							Il marchio
+						</th>
+						<th>
+							Storia
+						</th>
+						<th>
+							<img src="facebook.png" alt="facebook">
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Lavora con noi
+						</th>
+						<th>
+							Trova un concessionario
+						</th>
+						<th>
+							<img src="ig35.png" alt="instagram">
+						</th>
+					</tr>
+					<tr>
+						<th>
+							Diventa un concessionario
+						</th>
+						<th>
+							Configuratore
+						</th>
+						<th>
+							<img src="yt.png" alt="youtube">
+						</th>
+					</tr>
+				</tbody>
+			</table>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 	</body>
 </html>
